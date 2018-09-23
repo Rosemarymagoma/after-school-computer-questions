@@ -4,7 +4,7 @@ var choice001 = ["", "", "", "", "", "", "", "", "", ""];
 var choice003 = ["", "", "", "", "", "", "", "", "", ""];
 var choice004 = ["", "", "", "", "", "", "", "", "", ""];
 var correct = ["correct", "correct", "correct", "correct", "correct", "correct", "correct", "correct", "correct", "correct"];
-var incorrect = ["", "", "", "", "", "", "", "", "", ""];
+var incorrect = ["incorrect", "", "", "", "", "", "", "", "", ""];
 
 var e = 0;
 e++;
