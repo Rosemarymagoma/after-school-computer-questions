@@ -3,7 +3,7 @@ var words002 = ["1", "2", "3", "4", "4", "3", "2", "1", "2", "1"];
 var choice001 = ["", "", "", "", "", "", "", "", "", ""];
 var choice003 = ["", "", "", "", "", "", "", "", "", ""];
 var choice004 = ["", "", "", "", "", "", "", "", "", ""];
-var correct = ["correct", "correct", "correct", "correct", "correct", "correct", "correct", "correct", "correct", "correct"];
+var correct = ["correct.enter text", "correct", "correct", "correct", "correct", "correct", "correct", "correct", "correct", "correct"];
 var incorrect = ["incorrect", "incorrect", "incorrect", "incorrect", "incorrect", "incorrect", "incorrect", "incorrect", "incorrect", "incorrect"];
 
 var e = 0;
