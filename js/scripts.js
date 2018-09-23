@@ -18,7 +18,7 @@ function begin001() {
   typings002.innerHTML =  choice002[0];
   typings003.innerHTML =  choice003[0];
   typings004.innerHTML =  choice004[0];
-  disappear001.innerHTML = "<input type=text id=input001 size=1 maxlength=1 /><button class=blue001 onclick=submit001()>submit answer001.innerHTML = """;
+  disappear001.innerHTML = "<input type=text id=input001 size=1 maxlength=1 /><button class=blue001 onclick=submit001()">submit answer001.innerHTML = "";
 
 }
 function submit001() {
@@ -42,8 +42,10 @@ function submit001() {
 }
 function new002() {
   number001.innerHTML = z++;
-  messageoo1.innerHTML = words001[0];
-  typings002.innerHTML = choice001[1];
-  typings003.innerHTML = choice001[1];
+  message001.innerHTML = words001[1];
+  typings002.innerHTML = choice002[1];
+  typings003.innerHTML = choice003[1];
+  typings004.innerHTML = choice004[1];
+  disappear001.innerHTML = "<input type=text id=input001 size=1 maxlength=1 /><button class=blue001 onclick=submit001()">submit answer001.innerHTML = "";
 
 }
