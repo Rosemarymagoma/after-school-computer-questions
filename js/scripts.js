@@ -31,7 +31,7 @@ function submit001() {
   typings003.innerHTML = "";
   typings004.innerHTML = "";
 } if (b !== words002[0]) {
-  answer001.innerHTML = "<div id=font002>" + incorrect001[0] + "<br />" + "<br />" + "<button class=blue001 onclick=new002(>Next</button>)" + "</div";
+  answer001.innerHTML = "<div id=font002>" + incorrect001[0] + "<br /> " + "<br /> " + "<button class=blue001 onclick=new002(>Next</button>)" + "</div";
   disappear001.innerHTML = "";
   typings001.innerHTML = "";
   typings002.innerHTML = "";
