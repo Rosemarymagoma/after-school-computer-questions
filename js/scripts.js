@@ -33,5 +33,6 @@ function submit001() {
 } if (b !== words002[0]) {
   answer001.innerHTML = "<div id=font002>" + incorrect001[0] + "<br /><br />"
   disappear001.innerHTML = "";
+  typings001.innerHTML = "";
 }
 }
