@@ -34,5 +34,6 @@ function submit001() {
   answer001.innerHTML = "<div id=font002>" + incorrect001[0] + "<br /><br />"
   disappear001.innerHTML = "";
   typings001.innerHTML = "";
+  typings002.innerHTML = "";
 }
 }
