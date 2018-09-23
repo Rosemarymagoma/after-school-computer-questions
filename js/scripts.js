@@ -19,5 +19,5 @@ function begin001() {
   typings003.innerHTML =  choice003[0];
   typings004.innerHTML =  choice004[0];
   disappear001.innerHTML = "<input type=text id=input001 size=1 maxlength=1 /><button class blue=001>"
-  answer001.innerHTML= "<button class=blue001 onclick=submit001()>submit</button>";
+  answer001.innerHTML= "";
 }
