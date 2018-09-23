@@ -25,17 +25,25 @@ function submit001() {
   var b = input001.value;
   if (b == words002[0]) {
   answer001.innerHTML = "<div id=font002>" + correct001[0] + "<br /> " +"<br /> " + "<button class=blue001 onclick=new002()>Next</button>" + "</div>";
-  disappear001.innerHTML = ""; score001.innerHTML = e++;
+  disappear001.innerHTML = "";
+  score001.innerHTML = e++;
   typings001.innerHTML = "";
   typings002.innerHTML = "";
   typings003.innerHTML = "";
   typings004.innerHTML = "";
 } if (b !== words002[0]) {
   answer001.innerHTML = "<div id=font002>" + incorrect001[0] + "<br /> " + "<br /> " + "<button class=blue001 onclick=new002()>Next</button>" + "</div";
-  disappear001.innerHTML = ""; 
+  disappear001.innerHTML = "";
   typings001.innerHTML = "";
   typings002.innerHTML = "";
   typings003.innerHTML = "";
   typings004.innerHTML = "";
 }
+}
+function new002() {
+  number001.innerHTML = z++;
+  messageoo1.innerHTML = words001[0];
+  typings002.innerHTML = choice001[1];
+  typings003.innerHTML = choice001[1];
+
 }
