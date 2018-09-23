@@ -18,6 +18,13 @@ function begin001() {
   typings002.innerHTML =  choice002[0];
   typings003.innerHTML =  choice003[0];
   typings004.innerHTML =  choice004[0];
-  disappear001.innerHTML = "<input type=text id=input001 size=1 maxlength=1 /><button class blue=001>"
-  answer001.innerHTML= "";
+  disappear001.innerHTML = "<input type=text id=input001 size=1 maxlength=1 /><button class=blue001 onclick=submit001()>submit answer001.innerHTML = """;
+
+}
+function submit001() {
+  var b = input001.value;
+  if (b == words002[0]) {
+  answer001.innerHTML = "<div id=font002>" + correct001[0] + "<>"
+  disappear001.innerHTML = ""; score001.innerHTML = e++;
+  }
 }
