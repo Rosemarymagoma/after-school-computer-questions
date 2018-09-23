@@ -24,15 +24,15 @@ function begin001() {
 function submit001() {
   var b = input001.value;
   if (b == words002[0]) {
-  answer001.innerHTML = "<div id=font002>" + correct001[0] + "<br /><br />"
+  answer001.innerHTML = "<div id=font002>" + correct001[0] + "<br /> " +"<br /> " + "<button class=blue001 onclick=new002()>Next</button>" + "</div>";
   disappear001.innerHTML = ""; score001.innerHTML = e++;
   typings001.innerHTML = "";
   typings002.innerHTML = "";
   typings003.innerHTML = "";
   typings004.innerHTML = "";
 } if (b !== words002[0]) {
-  answer001.innerHTML = "<div id=font002>" + incorrect001[0] + "<br /> " + "<br /> " + "<button class=blue001 onclick=new002(>Next</button>)" + "</div";
-  disappear001.innerHTML = "";
+  answer001.innerHTML = "<div id=font002>" + incorrect001[0] + "<br /> " + "<br /> " + "<button class=blue001 onclick=new002()>Next</button>" + "</div";
+  disappear001.innerHTML = ""; score001.innerHTML = e++;
   typings001.innerHTML = "";
   typings002.innerHTML = "";
   typings003.innerHTML = "";
