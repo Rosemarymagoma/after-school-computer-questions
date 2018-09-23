@@ -36,5 +36,6 @@ function submit001() {
   typings001.innerHTML = "";
   typings002.innerHTML = "";
   typings003.innerHTML = "";
+  typings004.innerHTML = "";
 }
 }
