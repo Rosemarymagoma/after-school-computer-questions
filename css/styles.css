@@ -10,3 +10,23 @@ h1 {
   font-weight: bolder;
   background-color: lavenderblush;
 }
+h2 {
+  color: Teal;
+  background-color: ivory;
+  font-weight: bold;
+  font-family: fantasy;
+  text-align: right;
+}
+h3 {
+  color: aquamarine;
+  background-color: lemonchiffon;
+  font-family: cursive;
+}
+.description{
+  float: left;
+  flex: initial;
+  border-radius: 12px;
+  text-indent: inherit;
+  font-style: oblique;
+  font-weight: bold;
+}

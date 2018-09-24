@@ -13,6 +13,8 @@
 ### License
 #### The application is under the rules and regulations of MIT License.
 
+#### https://github.com/Rosemarymagoma/after-school-computer-questions
+
 ### Copyright
 ### (C)
 
