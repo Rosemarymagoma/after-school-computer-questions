@@ -6,29 +6,39 @@
       <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
       <link href="css/styles.css" rel="stylesheet" type="text/css">
       <script   src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-      <script src="js/scripts.js"></script>
+     <script src="js/scripts.js"></script>
   </head>
       <body>
         <div class="container">
-          <h2></h2>
-          <div class="question001">
-            Question:<text id="number1">0</text><br /><br />
-            score:<text id="score001">0</text><br /><br />
-          </div>
-          <p id="message001"></p>
-          <p id="typings001"></p>
-          <p id="typings002"></p>
-          <p id="typings003"></p>
-          <p id="typings004"></p>
-          <p id="message002"></p>
-          <p id="answer001"></p>
-          <p id="next001"></p>
-          <div id="disappear">
-            <button class="blue001" onclick="begin001()">Begin:</button>
-          </div>
 
+        <h2>Choose an answer that best suits  the questions given below.</h2>
+        <h4><em>(There are 10 questions. The questions are out of 40; each question is awarded 4 marks.)</em></h4>
+        <h2 >Quiz1.</h2>
+        <p>Inside which HTML element do we put the JavaScript?</p>
+          <form id="test">
 
+        <div class="radio">
+            <label>
+              <input type="radio" name="choices" value="<script>" checked>
+              script
+            </label>
         </div>
+        <div class="radio">
+            <label>
+              <input type="radio" name="choices" value="javascript">
+              javascript
+            </label>
+            </div>
+            <div class="radio">
+            <label>
+            <input type="radio" name="choices" value="js">
+              js
+            </label>
+            </div><br>
+          <button type="submit" class="btn">Submit</button>
 
-  </body>
+          </form>
+          <a href="question2.html">Next</a>
+        </div>
+    </body>
 </html>

@@ -1,14 +1,45 @@
 <!DOCTYPE html>
-<html lang="" dir="ltr">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-      <title>END OF COURSE JAVASCRIPT QUESTIONS</title>
-        <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-        <link href="css/styles.css" rel="stylesheet" type="text/css">
-        <script   src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-        <script src="js/scripts.js"></script>
-      </head>
-          <body>
-          <h1>END OF COURSE JAVASCRIPT QUESTION</h1>
-  </body>
+    <title>END OF COURSE JAVASCRIPT QUESTIONS</title>
+      <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+      <link href="css/styles.css" rel="stylesheet" type="text/css">
+      <script   src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+     <script src="js/scripts.js"></script>
+  </head>
+      <body>
+        <div class="container">
+        <h1 id="test_status">END OF COURSE JAVASCRIPT QUESTIONS</h1>
+        <h3><em>Fill the first page appropriately with your name, the year you were born, your gender and your admission number.</em></h3>
+        <p>Name:</p>
+        <div class="name">
+          <input type="Name">
+        </div>
+        <p>Date of birth:</p>
+        <div class="dateOfBirth">
+          <label for="birth"></label>
+          <input type="birth" class="dateOfBirth" type="date">
+        </div>
+        <p>Gender:</p>
+          <div class="radio">
+            <input type="radio" name="gender" value="Male">
+            Male
+          </div>
+          <div class="radio">
+            <input type="radio" name="gender" value="Female">
+            Female
+          </div><br><br>
+
+          <div class="admission-Number">
+            <label for="admission">Admission Number:</label>
+            <input type="admission" name="admission-Number" value="">
+          </div><br><br><br>
+
+          <button type="submit" class="btn">Submit:</button>
+
+        </form><br><br>
+          <a href="question1.html">Next</a>
+        </div>
+    </body>
 </html>
