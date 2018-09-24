@@ -3,3 +3,10 @@
   background-color: lightcoral;
   background-image: url('');
 }
+h1 {
+  text-align: center;
+  color: darkslategrey;
+  font-family: monospace;
+  font-weight: bolder;
+  background-color: lavenderblush;
+}
