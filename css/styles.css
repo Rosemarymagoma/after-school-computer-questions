@@ -1,10 +1,12 @@
 .container{
   color: Rebeccapurple;
   background-color: lightcoral;
-  background-image: url('');
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR90k4nCxtjQfBfsQX9cyvIHRFG7sBeEOqfKsA7exca4oTT9kJh');
+  background-repeat: no-repeat;
 }
 h1 {
   text-align: center;
+  background-image: url('');
   color: darkslategrey;
   font-family: monospace;
   font-weight: bolder;
@@ -24,9 +26,15 @@ h3 {
 }
 .description{
   float: left;
-  flex: initial;
+  flex:auto;
   border-radius: 12px;
   text-indent: inherit;
   font-style: oblique;
   font-weight: bold;
+}
+#submit{
+  color: darkgreen;
+  background-color: peachpuff;
+  text-align: right;
+  font-size: 20px;
 }

@@ -10,48 +10,176 @@
   </head>
       <body>
         <div class="container">
+          <marquee>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl54iiZZyRiO-irUzqC8ETbfB6SVCILo9mX9DcfauqF7FcV1YZ" alt="">
+        </marquee>
           <div class="row">
            <div class="col-mi-6">
-             <div class="">
+             <div class="panel panel-info">
+               <div class="panel-heading">
 
 
         <h1 id="test_status">END OF COURSE JAVASCRIPT QUESTIONS</h1>
-        <h3><em>Fill the first page appropriately with your name, the year you were born, your gender and your admission number.</em></h3>
+        <h3 class="panel-title"><em>Fill the first page appropriately with your name and your admission number.</em></h3>
+            </div>
          </div>
-         </div>
+
+
          <form class="description">
          <div class="col-mi-6">
+           <div class="development">
         <p>Name:</p>
         <div class="name">
-          <input type="Name">
-        </div>
-        <p>Date of birth:</p>
-        <div class="dateOfBirth">
-          <label for="birth"></label>
-          <input type="birth" class="dateOfBirth" type="date">
-        </div>
-        <p>Gender:</p>
-          <div class="radio">
-            <input type="radio" name="gender" value="Male">
-            Male
-          </div>
-          <div class="radio">
-            <input type="radio" name="gender" value="Female">
-            Female
-          </div><br><br>
+          <input id="Name" class="form-control" type="name">
+        </div><br><br>
 
           <div class="admission-Number">
             <label for="admission">Admission Number:</label>
             <input type="admission" name="admission-Number" value="">
           </div><br><br><br>
-            </div>
+          </div>
           </div>
 
+          </div>
+        </form>
+        <form id="test">
+          <div class="panel panel-info">
+            <div class="panel-heading">
 
-          <button type="submit" class="btn">Submit:</button>
+          <h2>Choose an answer that best suits  the questions given below.</h2>
+          <h4><em>(There are 10 questions. The questions are out of 100; each question is awarded 10 marks.)</em></h4>
+          </div>
+          <h2>Qn1.</h2>
+           <div id="Qn1">
 
-        </form><br><br>
-          <a href="question1.html">Next</a>
+          <p>Inside which HTML element do we put the JavaScript?</p>
+         </div>
+
+           <div class="radio">
+              <label>
+                <input type="radio" name="choices" value="10">
+                script
+              </label>
+           </div>
+          <div class="radio">
+              <label>
+                <input type="radio" name="choices" value="0">
+                javascript
+              </label>
+              </div>
+               <div class="radio">
+              <label>
+              <input type="radio" name="choices" value="0">
+                js
+              </label>
+             </div>
+              <br>
+
+
+            <h2>Qn2.</h2>
+            <div id="Qn2"
+            <p>How do we create a function in javascript?</p>
+          </div>
+
+            <div class="radio">
+              <label>
+                <input type="radio" name="answer" value="0">
+                function:myFunction()
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="answer" value="10">
+                function=myFunction()
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="answer" value="0">
+                function myFunction
+              </label>
+            </div><br>
+
+          <h2>Qn3</h2>
+          <div ="Qn3">
+            <p>What type of language is JavaScript when it comes to passing arguments?</p>
+            <form id="test">
+
+            <div class="radio">
+              <label>
+                <input type="radio" name="answer1" value="10">
+                "Pass by value"
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="answer1" value="0">
+                "Pass by reference"
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="answer1" value="0">
+                "Not sure"
+              </label>
+            </div><br>
+
+          <h2>Qn4.</h2>
+          <div ="Qn4">
+            <p>How do we write an IF statement in JavaScript?</p>
+          </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="answer2" value="0">
+                if i=5;
+              </label>
+            </div>
+
+            <div class="radio">
+              <label>
+                <input type="radio" name="answer2" value="0">
+                  if i==5 then;
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="answer2" value="10">
+                if(i==5);
+              </label>
+            </div><br><br>
+
+          <h2>Qn5.</h2>
+          <div id="Qn5">
+          <p>The external JavaScript file must contain the "script" tag.</p>
+        </div>
+
+          <div class="radio">
+            <label>
+              <input type="radio" name="answer3" value="0">
+              True
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="answer3" value="10">
+              False
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="answer3" value="0">
+              Not sure
+            </label>
+          </div><br>
+        </div>
+          <div id="submit">
+          <button class="bg-success" type="submit" class="btn">SUBMIT</button>
+          <button class="bg-danger" type="button" name="button" onclick="refresh();">REFRESH</button>
+        </div>
+      </form>
+        <div id="outputs"></div>
+        <div id="remark"></div>
+            </div>
         </div>
     </body>
 </html>
