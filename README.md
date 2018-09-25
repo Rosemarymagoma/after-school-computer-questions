@@ -17,7 +17,7 @@
 * Rosemary Magoma
 
 ### Project set up and instructions
-* Clone my repo to yours and install it using [link].https://github.com/Rosemarymagoma/after-school-computer-questions
+* Clone my repo to yours and install it using .[link](https://github.com/Rosemarymagoma/after-school-computer-questions)
 
 ### Behavior Driven Development
                                                                                                       
@@ -35,12 +35,12 @@
 
 
 ### License
-* Use this link to get the project license [here].https://choosealicense.com/licenses/mit/
+* Use this link to get the project license.[here](https://choosealicense.com/licenses/mit/)
 * The application is under the rules and regulations of MIT License.
 
 #### link to my live github
 
-* [find].https://github.com/Rosemarymagoma/after-school-computer-questions
+* .[find](https://github.com/Rosemarymagoma/after-school-computer-questions)
 
 ### Copyright
 ### (C)
