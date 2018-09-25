@@ -20,7 +20,7 @@
 * Clone my repo to yours and install it using [link].https://github.com/Rosemarymagoma/after-school-computer-questions
 
 ### Behavior Driven Development
-|                            |                                                       |                    |
+                                                                                                      
 |   Possible choices         |    student inputs                                     | score              |
 |----------------------------|-------------------------------------------------------|--------------------|
 |  A, B or C                 |  The student does not answer any question             |  0                 |
