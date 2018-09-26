@@ -20,6 +20,11 @@ var Qn5 = parseInt($("input:radio[name=answer3]:checked").val());
  $(".development").hide();
  $("#outputs").text(total);
  var remarks = "";
+ var bad = 10;
+ var average = 30;
+ var good = 40;
+ var perfect =50;
+
  if (answeredAll===5) {
    report = "you have scored:";
 
@@ -35,8 +40,8 @@ var Qn5 = parseInt($("input:radio[name=answer3]:checked").val());
    report = "Ensure that you answer all questions and resubmit."
  }
  }
-
-
+ var remarks = (bad,average,good,perfect);
+ $("#remark").text
 
 });
 });

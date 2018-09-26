@@ -1,8 +1,9 @@
 .container{
   color: Rebeccapurple;
   background-color: lightcoral;
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR90k4nCxtjQfBfsQX9cyvIHRFG7sBeEOqfKsA7exca4oTT9kJh');
+  background-image: url('');
   background-repeat: no-repeat;
+
 }
 h1 {
   text-align: center;
@@ -37,4 +38,5 @@ h3 {
   background-color: peachpuff;
   text-align: right;
   font-size: 20px;
+}
 }
